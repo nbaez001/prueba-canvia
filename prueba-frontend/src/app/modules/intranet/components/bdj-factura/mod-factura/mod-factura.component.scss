@@ -1,0 +1,34 @@
+@import "../../../../../../assets/styles/scss/views/table";
+
+.table-container {
+    max-height: 400px;
+}
+
+@include mat-table-columns(
+    (
+        id: (
+            width: 2rem,
+        ),
+        codigo: (
+            width: 3rem,
+        ),
+        nombre: (
+            width: 8rem,
+        ),
+        cantidad: (
+            width: 6rem,
+            text-align: center,
+        ),
+        precio: (
+            width: 6rem,
+            text-align: center,
+        ),
+        subTotal: (
+            width: 6rem,
+            text-align: center,
+        ),
+        opt: (
+            width: 2.5rem,
+        ),
+    )
+);
