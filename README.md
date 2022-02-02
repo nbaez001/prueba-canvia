@@ -19,3 +19,7 @@ Scripts para base de datos Oracle 11g, carpeta /prueba-sql
 
 Usuario/contraseña Oracle: system/oracle
 
+# Configuracion adicional
+Creacion de red docker
+1) sudo docker network create prueba-net
+
