@@ -7,6 +7,6 @@ spring:
     name: prueba-backend
   datasource:
     driverClassName: oracle.jdbc.OracleDriver
-    url: "jdbc:oracle:thin:@localhost:1521:orcl"
+    url: "jdbc:oracle:thin:@prueba-oracle:1521:orcl"
     username: "PRUEBA"
     password: "1234"    hikari:      maximum-pool-size: 5      connection-timeout: 60000
