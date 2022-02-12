@@ -1,4 +1,6 @@
 # EL proyecto esta conformado por 2 componentes backend y frontend
+sudo docker network create prueba-net
+
 # Componente BACKEND:
 Creado con spring framework, carpeta /prueba-backend
 * Imagen docker:
